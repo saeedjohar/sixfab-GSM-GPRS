@@ -1,5 +1,5 @@
 # This script sends SMS from Sixfab GSM/SPRS shield
-# for running it: python sendSMS.py <serial0/USB0> <NUMBER> <"Your Message">
+# for running it: python sendSMS.py <serial0/ttyUSB0> <NUMBER> <"Your Message">
 
 
 import sys
