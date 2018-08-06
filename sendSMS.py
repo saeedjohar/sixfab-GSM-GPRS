@@ -37,7 +37,7 @@ def main():
 							#https://en.wikipedia.org/wiki/ASCII
 		sleep(0.5)
 
-
+		ser.close()
 
 
 
