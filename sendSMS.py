@@ -17,10 +17,6 @@ ser = serial.Serial(SERIAL_PORT,SERIAL_RATE)
 OPERATE_SMS_MODE = 'AT+CMGF=1\r'
 SEND_SMS = 'AT+CMGS="%s"\r' %NUM
 
-ser.write('\x1A') #sending CTRL-Z
-#https://en.wikipedia.org/wiki/ASCII
-
-
 def main():
 	print "Sending SMS to %s" %NUM
 	if not ser.is_open:
