@@ -1,6 +1,6 @@
 python command format:
 
-python sendSMS.py <serial0/ttyUSB0> <YourNUMBER> <"Your Message">
+python sendSMS.py serial0/ttyUSB0 YourNUMBER "Your Message"
 
 For example:
 
